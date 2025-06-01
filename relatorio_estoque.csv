@@ -1,0 +1,13 @@
+Relat�rio de Estoque Baixo
+ID, Nome, Categoria, Quantidade, Pre�o, Localiza��o
+
+Relat�rio de Excesso de Estoque
+ID, Nome, Categoria, Quantidade, Pre�o, Localiza��o
+4, Elden Ring - PlayStation 5, Video-Game, 200, 239.00, Games e Consoles
+
+Relat�rio de Movimenta��es
+ID do Item, Tipo, Nome, Categoria, Quantidade, Data
+1, 1, entrada, 100, God of War Ragnar�k - Edi��o Standard - PlayStation 5, Video-Game
+2, 2, entrada, 30, Marvel's Spider-Man 2 - Edi��o Standard - PlayStation 5, Video-Game
+3, 3, entrada, 15, Tekken 8 - PlayStation 5, Video-Game
+4, 4, entrada, 200, Elden Ring - PlayStation 5, Video-Game

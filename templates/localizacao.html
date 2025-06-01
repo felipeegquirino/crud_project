@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>Localizações</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light justify-content-center">
+      <span>Rastreamento de Localização</span>
+    </nav>
+    <div class="container">
+      <h3>Localizações dos Produtos</h3>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nome do Produto</th>
+            <th>Depósito</th>
+            <th>Prateleira</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for loc in localizacoes %}
+          <tr>
+            <td>{{ loc[0] }}</td>
+            <td>{{ loc[1] }}</td>
+            <td>{{ loc[2] }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

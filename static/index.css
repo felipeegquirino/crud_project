@@ -1,0 +1,104 @@
+body {
+  background-color: #15171e;
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-box {
+  background-color: #1e2128;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border: 1px solid #333;
+}
+
+.navbar-custom {
+  background-color: #1e2128;
+}
+
+.report-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.report-buttons a {
+  white-space: nowrap;
+}
+
+.btn-relatorio-estoque {
+  background-color: #0fc73d;
+  color: #15171e;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btn-relatorio-estoque:hover {
+  background-color: #01a839;
+  color: white;
+}
+
+.btn-relatorio-movimentacoes {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btn-relatorio-movimentacoes:hover {
+  background-color: #e0a800;
+}
+
+.btn-custom {
+  background-color: #0fc73d;
+  color: #15171e;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btn-custom:hover {
+  background-color: #01a839;
+  color: white;
+}
+
+.btn-editar {
+  background-color: #0fc73d;
+  color: black;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btn-editar:hover {
+  background-color: #01a839;
+  color: white;
+}
+
+.btn-deletar {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btn-deletar:hover {
+  background-color: #c82333;
+}
+
+.scroll-indicator {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.scroll-indicator a {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}

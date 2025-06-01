@@ -1,0 +1,37 @@
+body {
+    background-color: #15171e;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-custom {
+    background-color: #1e2128;
+  }
+
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+}
+
+.custom-box {
+    background-color: #1e2128;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 1px solid #333;
+  }
+
+h3 {
+  color: #ffffff;
+}
+
+.form-label {
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #0fc73d;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #01a839;
+}
